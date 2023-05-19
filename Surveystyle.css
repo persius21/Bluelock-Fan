@@ -1,0 +1,83 @@
+/* Surveystyle.css */
+
+/* Reset default margin and padding */
+body, form {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  /* Set background color and center align the form */
+  body {
+    background: linear-gradient(90deg, #002e7c, #00789c, #029ba0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style the form container */
+  form {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  /* Style the survey title */
+  h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: -100px;
+    padding: 200px;
+  }
+  
+  /* Style the survey question */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the survey answer options */
+  input[type="radio"] {
+    margin-bottom: 5px;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: -300px;
+    margin-bottom: -100px;
+    padding: 20px;
+  }
+  .link3 {
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 30px;
+    
+    transition: color 0.3s; /* Add smooth transition for color change */
+  }

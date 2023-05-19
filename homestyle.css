@@ -1,0 +1,38 @@
+p1 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .link1 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 20px;
+    margin: 30px;
+    
+    transition: color 0.3s; /* Add smooth transition for color change */
+  }
+  
+  .link:hover {
+    color: lightblue; /* Change the color on hover */
+  }
+
+body{
+    background: linear-gradient(90deg, #002e7c, #00789c, #029ba0);
+}
+  
+ 
+  
